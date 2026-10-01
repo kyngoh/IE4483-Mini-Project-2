@@ -1,0 +1,22 @@
+# Python environment: each person creates their own (see README, "Setting up the environment")
+.venv/
+venv/
+
+# Datasets: too large for GitHub (see README, "Data")
+datasets/
+cifar-10-python/
+
+# Python and Jupyter caches
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Local tool settings and OS files
+.claude/
+.DS_Store
+Thumbs.db
+__MACOSX/
+
+# Trained weights (about 92 MB in total). They are committed so the evaluation cells
+# can run without retraining. Uncomment the next line to leave them out.
+# outputs/models/*.pt

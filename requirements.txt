@@ -1,0 +1,23 @@
+# EDA
+numpy>=2.0
+pandas>=2.2
+matplotlib>=3.9
+seaborn>=0.13
+pillow>=11.0
+imagehash>=4.3
+tqdm>=4.66
+ipykernel
+jupyter
+nbconvert
+
+# Modelling. RTX 50-series GPUs need a CUDA 12.8+ build, so install these from the PyTorch index:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
+torch>=2.9
+torchvision>=0.24
+
+# Evaluation: classification_report, confusion_matrix
+scikit-learn>=1.5
+
+# Optional. On native Windows TensorFlow runs on CPU only (no GPU after TF 2.10), and
+# on Python 3.14 only a pre-release exists (pip install --pre tensorflow).
+# tensorflow
